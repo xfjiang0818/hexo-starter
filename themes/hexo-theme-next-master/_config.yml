@@ -196,7 +196,7 @@ links_settings:
   layout: block
 
 links:
-  #Title: http://yoursite.com
+  blog.sina: http://blog.sina.com.cn/dick2117
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
