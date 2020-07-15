@@ -41,7 +41,7 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 * 网络图片
 
 ```
-![avatar](https://i0.hdslb.com/bfs/bangumi/f24f032372642f35257f66478ccfa51800b504a8.jpg)
+![avatar](https://raw.githubusercontent.com/xfjiang0818/pictures/master/home_5.png)
 ```
 
-![avatar](https://i0.hdslb.com/bfs/bangumi/f24f032372642f35257f66478ccfa51800b504a8.jpg)
+![avatar](https://raw.githubusercontent.com/xfjiang0818/pictures/master/home_5.png)
