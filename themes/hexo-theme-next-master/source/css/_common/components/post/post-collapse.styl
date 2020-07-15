@@ -74,11 +74,32 @@
     }
   }
 
+  //.post-meta {
+  //  display: inline;
+  //  font-size: $font-size-smallest;
+  //  margin-right: 10px;
+  //}
+
   .post-meta {
-    display: inline;
-    font-size: $font-size-smallest;
-    margin-right: 10px;
-  }
+    position: absolute;
+    font-size: 12px;
+    left: 20px;
+    top: 2px; // 修改这一行
+}
+
+  //.post-title {
+    //display: inline;
+
+    //a, span.exturl {
+    //  border-bottom: none;
+    //  color: var(--link-color);
+    //}
+
+    //.fa-external-link-alt {
+    //  font-size: $font-size-small;
+    //  margin-left: 5px;
+    //}
+  //}
 
   .post-title {
     display: inline;
@@ -89,10 +110,10 @@
     }
 
     .fa-external-link-alt {
-      font-size: $font-size-small;
+      font-size: 14px;
       margin-left: 5px;
     }
-  }
+  }  
 
   &::before {
     background: $whitesmoke;
