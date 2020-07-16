@@ -21,10 +21,18 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 这是一个行内公式 $tha_{\frac{1}{2}}$ 这是一个行内公式
 
 ```latex
-$$  f(n)=\begin{cases} n/2, & \text{如果$ x<=2 $}\\ 3n+1, & \text{如果$ x>2 $} \end{cases} $$
+$$
+f(n)=\begin{cases} n/2, 
+& \text{如果$ x<=2 $}\\ 3n+1, 
+& \text{如果$ x>2 $} \end{cases}
+$$
 ```
 
- $$  f(n)=\begin{cases} n/2, & \text{如果$ x<=2 $}\\ 3n+1, & \text{如果$ x>2 $} \end{cases} $$
+$$
+f(n)=\begin{cases} n/2, 
+& \text{如果$ x<=2 $}\\ 3n+1, 
+& \text{如果$ x>2 $} \end{cases}
+$$
 
 
 
@@ -49,7 +57,7 @@ $$  f(n)=\begin{cases} n/2, & \text{如果$ x<=2 $}\\ 3n+1, & \text{如果$ x>2 
 本地图片
 
 ```
-![avatar](/home/picture/1.png)
+![avatar](pictures/home_3.png)
 ```
 
 网络图片
