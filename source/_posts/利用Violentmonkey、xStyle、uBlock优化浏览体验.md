@@ -5,6 +5,10 @@ tags: Css
 categories:
 ---
 
+![avatar](https://raw.githubusercontent.com/xfjiang0818/pictures/master/20200705.jpg)
+
+<!-- more -->
+
 ## 去广告
 
 使用 uBlock，设定自定义静态规则如下
