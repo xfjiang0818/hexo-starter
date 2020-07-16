@@ -350,14 +350,6 @@ domain("zhihu.com") {
 
 
 
-![avatar](https://raw.githubusercontent.com/xfjiang0818/pictures/master/修改前.PNG)
-
-
-
-![avatar](https://raw.githubusercontent.com/xfjiang0818/pictures/master/修改后.PNG)
-
-
-
 ## 补充
 
 stylish 上的 xStyle 脚本可以安装为 Violentmonkey 脚本
