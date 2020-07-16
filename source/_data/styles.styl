@@ -6,3 +6,24 @@ body {
       background-attachment: fixed;
       background-position: 50% 50%;
 }
+
+// 浏览器滚动条
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: #37c6c0;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+// fancybox图片
+.posts-expand .post-body .fancybox img {
+    display: block ;
+    margin-left: 0px;
+    cursor: pointer;
+    cursor: zoom-in;
+    cursor: -webkit-zoom-in;
+}
