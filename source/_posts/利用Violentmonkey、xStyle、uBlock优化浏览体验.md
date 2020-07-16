@@ -5,7 +5,7 @@ tags: Css
 categories:
 ---
 
-![avatar](https://raw.githubusercontent.com/xfjiang0818/pictures/master/20200705.jpg)
+![avatar](../figures/20200705.jpg)
 
 <!-- more -->
 
