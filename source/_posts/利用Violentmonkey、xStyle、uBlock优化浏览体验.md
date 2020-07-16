@@ -5,7 +5,7 @@ tags: Css
 categories:
 ---
 
-![avatar](../figures/20200705.jpg)
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@1.0/20200705.jpg)
 
 <!-- more -->
 
