@@ -54,16 +54,10 @@ $$
 
 ## 图片
 
-本地图片
-
-```
-![avatar](pictures/home_3.png)
-```
-
 网络图片
 
 ```
-![avatar](https://raw.githubusercontent.com/xfjiang0818/pictures/master/home_5.png)
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@1.0/home_5.png)
 ```
 
-![avatar](https://raw.githubusercontent.com/xfjiang0818/pictures/master/home_5.png)
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@1.0/home_5.png)
