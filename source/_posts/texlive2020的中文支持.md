@@ -116,9 +116,9 @@ texlive\2020\texmf-dist\tex\latex\cjk\texinput 目录下存在 UTF8 和 GB 两�
 
 ### 3. XeLaTex 编译
 
-XeTeX 是使用 Unicode 的 Tex 排版引擎，默认输入文件是 utf-8 编码。XeTeX 可以在不进行额外配置的情况下，直接使用系统中安装的字体。XeLaTex 是使用 LaTeX 的排版引擎，也有上述 XeTex 的优点。
+XeTeX 是使用 Unicode 的 Tex 排版引擎，默认输入文件是 utf-8 编码。XeTeX 可以在不进行额外配置的情况下，直接使用系统中安装的字体。XeLaTeX 是使用 LaTeX 的排版引擎，也有上述 XeTeX 的优点。
 
-XeLaTex 在 cmd 中可直接生成 pdf 文件
+XeLaTeX 在 cmd 中可直接生成 pdf 文件XX
 
 ```
 xelatex XXXX.tex
