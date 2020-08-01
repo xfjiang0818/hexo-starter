@@ -1,5 +1,5 @@
 ---
-title: Note: The $r$-process nucleosynthesis and the related nuclear physics inputs
+title: 2020讲习班笔记：The $r$-process nucleosynthesis and the related nuclear physics inputs
 date: 2020-08-01 22:54:55
 tags: Nuclear Physics
 categories:
