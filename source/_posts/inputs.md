@@ -203,7 +203,85 @@ Mumpower 在 16 年的综述文章当中对这个问题做了一个讨论。他�
 
 ---
 
-#### Questions
+### Nuclear $\beta$-decay half-lives
+
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P39.png)
+
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P40.png)
+
+简单过一下原子核 $\beta$-衰变寿命的结果。目前衰变寿命有很多模型。质量模型已经有很多结果了，但是目前衰变寿命的计算，能计算所有丰中子原子核并且把数据公开的，只有 FRDM+QRPA 和 RHB+QRPA 的结果，而且 RHB+QRPA 的结果没有考虑形变自由度，是基于球形程序算的。所以大家可以看到，目前整个核合成计算衰变寿命最主要还是基于 FRDM+QRPA 的计算结果。他们在 03 年发了一个版本，最近又发了一个版本。
+
+---
+
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P41.png)
+
+关于衰变寿命的误差的话，这幅图把 18 年 FRDM 的结果给大家展示一下。这幅图给出理论计算和实验数据的比值。大家可以看到误差大约在一个数量级左右。
+
+---
+
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P42.png)
+
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P43.png)
+
+我们也发展了一套相对论的 QRPA 模型，去计算了 $\beta$-衰变寿命。这幅图也是给出了理论和实验的比值。红色的是我们的结果，绿色的是 FRDM 的结果。大家可以看到我们的结果相比于 FRDM 的结果还是有很大的改进。这个是 $\beta^-$ 的，还有这个 $\beta^+$ 的 还有 EC 的寿命，我们的结果也是用红色表示出来。大家可以看到结果也是拟合得非常好。但是还是有一些差的，就是这些，这些方框的原子核，这些都是些幻数原子核。大家可以看到，这个模型对飞幻数原子核的衰变寿命描述精度还是比较高的，但是对幻数核描述比较差，有些甚至差了几个数量级。
+
+---
+
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P44.png)
+
+为了去看一下这个问题是什么原因呢，我们做了一个计算。我们看了一下我们理论计算的反应能 $Q_\beta$ 和实验的进行比较，然后发现我们的 $Q_\beta$ 太小了。如果我们在计算的时候人为地换成实验的 $Q_\beta$，大家可以看到我们新的计算结果，就这个蓝色的方框，跟实验数据就很好了。这是在 RPA 的近似下我们发现只要把 $Q_\beta$ 改一下，就吻合得非常好了。还有一种方式就是我们不去人为地替换实验数据，把 RPA 近似进一步去考虑 PVC，大家可以看到结果也和实验数据吻合得非常好。所以说从我们目前的结果来看，提高衰变寿命的精度的话，要么超越 RPA 近似，对于幻数原子核来说，另一种方式，你如果把原子核的基态性质描述得比较好，可能也有助于我们去描写原子核的衰变寿命，或许在 RPA 近似下也可以得到比较好的计算结果。
+
+---
+
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P45.png)
+
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P46.png)
+
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P47.png)
+
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P48.png)
+
+后面实际上我们也用神经网络学习了一下衰变寿命，大家可以看到其实结果也是非常漂亮的。黑色是实验数据，其它颜色是各种理论模型的结果。我们神经网络的结果是这个绿色的阴影带，吻合还是非常好的，对有实验数据的区域基本上在误差范围内完全吻合。在没有实验数据的区域跟各个理论模型也基本上是在误差范围内，从这个角度上说我们误差的估计是比较合理的。
+
+---
+
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P49.png)
+
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P50.png)
+
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P51.png)
+
+---
+
+### Neutron capture rates
+
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P52.png)
+
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P53.png)
+
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P54.png)
+
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P55.png)
+
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P56.png)
+
+除此之外我们也做了中子俘获率和 $r$-过程计算的工作。目前人们说我们的 $r$-过程计算要基于自洽的核物理输入量。我们采用了 10 个质量模型，54 页这 10 个质量模型。我们基于这 10 个质量模型采用了一个开源的程序，计算了各个质量模型对应的中子俘获率，讨论了中子俘获率的不确定性，主要实际上是来自于质量模型的不确定性。53 页图给出了在不同温度下不确定度的大小，在 $r$-过程路径附近，仅来自于原子核质量不确定度的不确定度就已经达到 1 到 4 个数量级了。54 页我们放大 $N=126$ 的这幅图大家可以看到在 $r$-过程路径附近偏差还是很大的。如果我们采用这几个模型之间的方均根偏差作为误差的话，就是这个阴影带。可以发现 $r$-过程路径的误差这边大约是 1 个数量级，这边大约是 4 个数量级。所以说，仅仅来自于质量不确定度的不确定度就已经有 1 到 4 个数量级了。我们这个工作主要就做了这么一个事情。
+
+---
+
+## Summary and perspectives
+
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P57.png)
+
+未来我们打算做的是这些，还是这三个量。质量我们发现想进一步提高的话还是需要考虑更多的物理进去，譬如说我们现在加入了孟老师 RCHB 计算质量的团队，还有一种方式是用机器学习去学习泛函，可能得到更为有效的结果。对于衰变寿命，我们可以发展考虑微观效应的 gross 理论和考虑形变的 QRPA 理论，中子俘获率的话就是基于我们这些质量、寿命去计算自洽中子俘获率。
+
+![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P58.png)
+
+谢谢大家。
+
+---
+
+## Q&A
 
 <br/><font color=red>问：为什么 BMM 方法外推性这么好？在做这个模型的时候加了什么引导？</font></br>
 
@@ -261,23 +339,22 @@ Mumpower 在 16 年的综述文章当中对这个问题做了一个讨论。他�
 
 <br/><font color=blue>答：我们用球形的程序算的，所以只能选幻数核。</font></br>
 
+<br/><font color=red>问：前面讨论外推性的地方，37 页，我觉得这样讨论外推性很好。但我更关心的指标是，我们任何一个质量表，包括 FRDM 和 WS4，它本质上也有一个外推性的，你这个外推性现在只是自己跟自己比。FRDM 和 WS4 它们外推到 $r=25,30$，它们给出来的方均根偏差是多少，你给出来的方均根偏差是 1.5，但是 1.5 这个数字对我们是有指标性的启示意义的，如果能有个对比的话就能更明白这个 1.5 是个什么水平。</font></br>
+
+<br/><font color=blue>答：我没明白为什么 FRDM 有个不确定性，它没法评估啊？它给的质量没有误差啊。</font></br>
+
+<br/><font color=red>问：我说的外推性是指跟实验比较的外推性。</font></br>
+
+<br/><font color=blue>答：但是那边没有实验数据啊。</font></br>
+
+<br/><font color=red>问：我们可以下来聊一下。</font></br>
+
+<br/><font color=red>问：有什么方法可以把网络里的结构和参数和物理对应起来？</font></br>
+
+<br/><font color=blue>答：我目前没有普适的方法，我觉得你还是要根据物理问题，你用物理方法分析你的数据可能有哪些规律，然后基于这些规律再去构建你的结构。比如说我们前面做了一个事情拟合 $\beta$-衰变能，发现换了一个激活函数就发现结果一下子变得很好。因为神经网络里面可以变化的东西很多，到底怎么选择我个人还是在用试探性的方式进行的。</font></br>
+
+<br/><font color=red>问：安家费是一次性给还是分开给？</font></br>
+
+<br/><font color=blue>答：我不是很确定，我去问一下，我们下来再聊。</font></br>
+
 ---
-
-### Nuclear $\beta$-decay half-lives
-
-![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P39.png)
-
-![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@2020.8.1/output/P40.png)
-
-简单过一下原子核 $\beta$-衰变寿命的结果。
-1：19：40
-
----
-
-
-
-
-### Neutron capture rates
-
-## Summary and perspectives
-
