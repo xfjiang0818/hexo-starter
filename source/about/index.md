@@ -1,63 +1,51 @@
 ---
-title: 测试页
+title: 导航页
 date: 2020-07-16 10:36:34
 mathjax: true
 ---
 
-## 公式插入
+# Let's Start Here
 
-```latex
-When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are 
+[Annals of Physics](https://www.sciencedirect.com/journal/annals-of-physics)
 
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ 
+[Atomic Data and Nuclear Data Tables](https://www.sciencedirect.com/journal/atomic-data-and-nuclear-data-tables)
 
-这是一个行内公式$tha_{\frac{1}{2}}$这是一个行内公式
-```
+[Chinese Physics C](https://iopscience.iop.org/journal/1674-1137)
 
-When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are 
+[National Nuclear Data Center](https://www.nndc.bnl.gov/)
 
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
+[Progress in Particle and Nuclear Physics](https://www.sciencedirect.com/journal/progress-in-particle-and-nuclear-physics)
 
-这是一个行内公式 $tha_{\frac{1}{2}}$ 这是一个行内公式
+[Progress of Theoretical Physics](https://academic.oup.com/ptp)
 
-```latex
-$$
-f(n)=\begin{cases} n/2, 
-& \text{如果$ x<=2 $}\\ 3n+1, 
-& \text{如果$ x>2 $} \end{cases}
-$$
-```
+[The Astrophysical Journal](https://iopscience.iop.org/journal/0004-637X)
 
-$$
-f(n)=\begin{cases} n/2, 
-& \text{如果$ x<=2 $}\\ 3n+1, 
-& \text{如果$ x>2 $} \end{cases}
-$$
+## Nuclear Physics
+
+[Nuclear Physics](https://www.sciencedirect.com/journal/nuclear-physics)
+
+[Nuclear Physics A](https://www.journals.elsevier.com/nuclear-physics-a/)
+
+[Nuclear Physics B](https://www.journals.elsevier.com/nuclear-physics-a/)
+
+## Physical Review
+
+[Physical Review C](https://journals.aps.org/prc/)
+
+[Physical Review Letters](https://journals.aps.org/prl/)
+
+[Reviews of Modern Physics](https://journals.aps.org/rmp/)
+
+## Physics Letters
+
+[Physics Letters](https://www.sciencedirect.com/journal/physics-letters)
+
+[Physics Letters A](https://www.journals.elsevier.com/physics-letters-a/)
+
+[Physics Letters B](https://www.journals.elsevier.com/physics-letters-a/)
+
+[Physics Reports](https://www.journals.elsevier.com/physics-reports)
 
 
-
-## 链接
-
-标题属性可以不加
-
-```
-[Bilibili](https://www.bilibili.com/anime "Bilibili动画")
-```
-
-[Bilibili](https://www.bilibili.com/anime "Bilibili动画")
-
-```
-<https://www.bilibili.com/anime>
-```
-
-<https://www.bilibili.com/anime>
-
-## 图片
-
-网络图片
-
-```
-![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@1.0/home_5.png)
-```
 
 ![avatar](https://cdn.jsdelivr.net/gh/xfjiang0818/pictures@1.0/home_5.png)
